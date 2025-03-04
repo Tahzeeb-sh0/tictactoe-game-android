@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="287dp"
+        android:layout_height="171dp"
+        android:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn1"
+            android:hint="."
+            android:onClick="check"
+            android:textColorHint="?attr/actionModeSplitBackground"
+
+
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginLeft="10dp"
+            android:hint="."
+            android:onClick="check"
+            android:textColorHint="?attr/actionModeSplitBackground"
+
+            />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginLeft="10dp"
+            android:hint="."
+            android:onClick="check"
+            android:textColorHint="?attr/actionModeSplitBackground"
+
+            />
+
+        <Button
+            android:id="@+id/btn4"
+            android:hint="."
+            android:onClick="check"
+            android:textColorHint="?attr/actionModeSplitBackground"
+
+            />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_marginLeft="10dp"
+            android:hint="."
+            android:onClick="check"
+            android:textColorHint="?attr/actionModeSplitBackground"
+
+            />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_marginLeft="10dp"
+            android:hint="."
+            android:onClick="check"
+            android:textColorHint="?attr/actionModeSplitBackground"
+
+            />
+
+        <Button
+            android:id="@+id/btn7"
+            android:hint="."
+            android:onClick="check"
+            android:textColorHint="?attr/actionModeSplitBackground"
+
+            />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_marginLeft="10dp"
+            android:hint="."
+            android:onClick="check"
+            android:textColorHint="?attr/actionModeSplitBackground"
+
+            />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_marginLeft="10dp"
+            android:hint="."
+            android:onClick="check"
+            android:textColorHint="?attr/actionModeSplitBackground" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
