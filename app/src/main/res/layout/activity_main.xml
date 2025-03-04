@@ -11,97 +11,147 @@
 
     <GridLayout
         android:id="@+id/gridLayout2"
-        android:layout_width="287dp"
-        android:layout_height="171dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:columnCount="3"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            app:backgroundTint="@color/buttonColor"
+            app:cornerRadius="5dp"
+            android:textSize="25dp"
             android:id="@+id/btn1"
             android:hint="."
             android:onClick="check"
-            android:textColorHint="?attr/actionModeSplitBackground"
+            android:textColorHint="@color/buttonColor"
 
 
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            app:backgroundTint="@color/buttonColor"
+            app:cornerRadius="5dp"
             android:id="@+id/btn2"
+            android:textSize="25dp"
             android:layout_marginLeft="10dp"
             android:hint="."
             android:onClick="check"
-            android:textColorHint="?attr/actionModeSplitBackground"
+            android:textColorHint="@color/buttonColor"
 
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            app:backgroundTint="@color/buttonColor"
+            app:cornerRadius="5dp"
+            android:textSize="25dp"
             android:id="@+id/btn3"
             android:layout_marginLeft="10dp"
             android:hint="."
             android:onClick="check"
-            android:textColorHint="?attr/actionModeSplitBackground"
+            android:textColorHint="@color/buttonColor"
 
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            app:backgroundTint="@color/buttonColor"
+            app:cornerRadius="5dp"
             android:id="@+id/btn4"
+            android:textSize="25dp"
             android:hint="."
             android:onClick="check"
-            android:textColorHint="?attr/actionModeSplitBackground"
+            android:textColorHint="@color/buttonColor"
 
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            app:backgroundTint="@color/buttonColor"
+            app:cornerRadius="5dp"
+            android:textSize="25dp"
             android:id="@+id/btn5"
             android:layout_marginLeft="10dp"
             android:hint="."
             android:onClick="check"
-            android:textColorHint="?attr/actionModeSplitBackground"
+            android:textColorHint="@color/buttonColor"
 
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            app:backgroundTint="@color/buttonColor"
+            app:cornerRadius="5dp"
             android:id="@+id/btn6"
             android:layout_marginLeft="10dp"
             android:hint="."
             android:onClick="check"
-            android:textColorHint="?attr/actionModeSplitBackground"
+            android:textSize="25dp"
+            android:textColorHint="@color/buttonColor"
 
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            app:backgroundTint="@color/buttonColor"
+            app:cornerRadius="5dp"
             android:id="@+id/btn7"
             android:hint="."
             android:onClick="check"
-            android:textColorHint="?attr/actionModeSplitBackground"
+            android:textSize="25dp"
+            android:textColorHint="@color/buttonColor"
 
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            app:backgroundTint="@color/buttonColor"
+            app:cornerRadius="5dp"
             android:id="@+id/btn8"
             android:layout_marginLeft="10dp"
             android:hint="."
+            android:textSize="25dp"
             android:onClick="check"
-            android:textColorHint="?attr/actionModeSplitBackground"
+            android:textColorHint="@color/buttonColor"
 
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            android:textColor="@color/textButton"
+            android:textSize="25dp"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            app:backgroundTint="@color/buttonColor"
+            app:cornerRadius="5dp"
             android:id="@+id/btn9"
             android:layout_marginLeft="10dp"
             android:hint="."
             android:onClick="check"
-            android:textColorHint="?attr/actionModeSplitBackground" />
+            android:textColorHint="@color/buttonColor" />
 
     </GridLayout>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/restart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:layout_width="110dp"
+        app:backgroundTint="@color/newGameButton"
+        app:cornerRadius="10dp"
+        android:textColor="@color/white"
         android:text="New Game"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -113,7 +163,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tic Tac Toe"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/gridLayout2"
         app:layout_constraintEnd_toEndOf="parent"

@@ -12,8 +12,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.google.android.material.button.MaterialButton;
+
 public class MainActivity extends AppCompatActivity {
-    Button btn1 , btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 ,restart;
+    MaterialButton btn1 , btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 ,restart;
+
     String b1, b2, b3, b4, b5, b6, b7, b8, b9;
     int count;
     @SuppressLint("MissingInflatedId")
@@ -70,10 +74,11 @@ public class MainActivity extends AppCompatActivity {
 
             if (flag == 0) {
 
-                currentButton.setText("X");
+                currentButton.setText("❌");
                 flag = 1;
             } else {
-                currentButton.setText("O");
+
+                currentButton.setText("⭕");
                 flag = 0;
             }
             b1 = btn1.getText().toString();

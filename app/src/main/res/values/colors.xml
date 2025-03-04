@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="buttonColor">#2979FF</color>
+    <color name="textButton">#F50057</color>
+    <color name="newGameButton">#651FFF</color>
 </resources>
